@@ -10,9 +10,19 @@
 }
 .container-main{
     display: flex;
-    position: fixed;
+  
+}
+body{
+    height: 100vh;
+    
 }
 
+ul li{
+    list-style: none;
+}
+.content-container{
+    margin-left: 220px;
+}
 
 .menu li:hover{
     background-color: rgb(215, 112, 129);
@@ -36,6 +46,7 @@
 }
 
 .container-menu{
+    position: fixed;
     border-right: 1px solid rgb(0, 0, 0, 0.2);
     height: 100vh;
     box-shadow: 5px 0px 2px -1px rgba(34, 60, 80, 0.2);

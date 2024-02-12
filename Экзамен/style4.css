@@ -1,0 +1,35 @@
+.three-line-container{
+    display: flex;
+}
+.three-menu{
+    color: white;
+    padding: 20px;
+}
+.menu-window{
+    display: flex;
+    align-items: center;
+}
+
+.massege{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.container-three{
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    margin: 10px 20px;
+    padding: 10px 20px;
+    box-shadow: 8px 9px 3px 0px rgba(34, 60, 80, 0.2);
+}
+.li-window, .li-win{
+    padding:10px 20px;
+}
+.li-window:hover{
+    background-color: rgb(237, 200, 16, 0.5);
+    transition: all 0.5s ease;
+}
+.marg{
+    font-size: 14px;
+    padding: 10px 20px;
+}
