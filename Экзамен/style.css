@@ -1,3 +1,7 @@
+/* Стили для меню*/
+
+
+
 *{
     padding: 0;
     margin: 0;
@@ -6,6 +10,7 @@
 }
 .container-main{
     display: flex;
+    position: fixed;
 }
 
 
@@ -35,3 +40,17 @@
     height: 100vh;
     box-shadow: 5px 0px 2px -1px rgba(34, 60, 80, 0.2);
 }
+
+.logo{
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+

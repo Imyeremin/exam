@@ -1,0 +1,75 @@
+
+/* Первая линия контента*/
+
+
+.content-container{
+    width: 100%;
+    background-color: azure;
+}
+hr{
+    border-color: rgba(218, 213, 213, 0.2);
+}
+.img-one{
+    background-color: green;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+}
+
+.icon{
+    width: 12px;
+    margin-right: 5px;
+}
+.info{
+    display: flex;
+    justify-content: end;
+}
+.one-line-content{
+    display: flex;
+}
+.content-one{
+    
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    margin: 10px 20px;
+    padding: 10px 20px;
+    box-shadow: 8px 9px 3px 0px rgba(34, 60, 80, 0.2);
+}
+.spans{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+.l-font{
+    font-size: 14px;
+    color: rgb(0, 0, 0, 0.75);
+}
+.b-font{
+    font-size: 30px;
+}
+.down-info{
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+.yello{
+    background-color: orange;
+}
+.blue{
+    background-color: blue;
+}
+.pink{
+    background-color: rgb(215, 112, 129);
+}
+.green{
+    background-color: green;
+}
