@@ -1,8 +1,26 @@
+.two-line-container{
+    display: flex;
+    margin-top: 50px;
+}
+.content-two{
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    margin: 10px 20px;
+    padding: 10px 20px;
+    box-shadow: 8px 9px 3px 0px rgba(34, 60, 80, 0.2);
+}
 .img-two{
     display: flex;
     justify-content: center;
-  background-color: green;
+ 
   height: 200px;
-  width: 320px;
+  width: 343px;
+  position: relative;
+  bottom: 20px;
   
 }
+.info-two{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
