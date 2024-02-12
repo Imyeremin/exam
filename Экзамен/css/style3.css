@@ -1,6 +1,9 @@
+/*третья линия контента*/
+
 .three-line-container{
     display: flex;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 .three-menu{
     color: white;
@@ -51,4 +54,6 @@
 .punkt-1{
     font-size: 14px;
 }
-
+.punkt-logo{
+    color: aqua;
+}

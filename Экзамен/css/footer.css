@@ -1,0 +1,17 @@
+/*footer*/
+
+.footer-container{
+    margin-left: 220px;
+    display: flex;
+justify-content: space-between;
+
+}
+.foot-ul, 
+.foot-logo{
+    display: flex;
+    padding: 30px;
+}
+.foot-li{
+    padding:0px 10px;
+    margin:0px 10px;
+}
