@@ -17,9 +17,9 @@
  
   height: 200px;
   width: 343px;
-    position: relative;
+ position: relative;
   bottom: 20px;
-  
+
 }
 .info-two{
     display: flex;

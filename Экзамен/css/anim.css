@@ -1,0 +1,6 @@
+.content-one{
+    transition: all 0.5s ease;
+}
+.content-one:hover{
+    transform: scale(1.1, 1.1);
+}

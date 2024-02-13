@@ -1,0 +1,41 @@
+@media (max-width:1000px)  {
+    .media{
+        display: block;
+         }
+
+    .content-one{
+        margin-bottom: 30px;
+        
+    }
+    .three-line-container{
+        display: block;
+    }
+    .container-three{
+margin-bottom: 50px;
+
+    }
+
+    .two-line-container{
+        
+    }
+
+    .img-two{
+        height: 150px;
+        width: 170px;
+    }
+   
+    
+
+}
+
+@media (max-width:800px)  {
+
+}
+
+@media (max-width:650px)  {
+
+}
+
+@media (max-width:500px)  {
+
+}
