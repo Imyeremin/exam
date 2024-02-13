@@ -11,12 +11,8 @@
         display: block;
     }
     .container-three{
-margin-bottom: 50px;
+       margin-bottom: 50px;
 
-    }
-
-    .two-line-container{
-        
     }
 
     .img-two{
@@ -30,12 +26,39 @@ margin-bottom: 50px;
 
 @media (max-width:800px)  {
 
+    .container-menu{
+        display: none;
+    }
+    .content-container{
+        margin-left: 0px;
+    }
+
+
+    .footer-container{
+        margin-left: 0px;
+    }
 }
 
 @media (max-width:650px)  {
-
+    .two-line-container{
+        display: block;
+    }
+    .img-two{
+        height: 180px;
+        width: 430px;
+    }
+    .content-two{
+        margin-bottom: 50px;
+    }
 }
 
 @media (max-width:500px)  {
-
+    .one-line-content{
+        display: block;
+        
+    }
+    .info{
+        justify-content: space-between;
+    }
+   
 }
