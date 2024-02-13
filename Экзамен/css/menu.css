@@ -17,9 +17,15 @@ body{
     
 }
 
-ul li{
+ul li {
     list-style: none;
 }
+a, a:visited
+{
+    color: inherit;
+  text-decoration: none;
+}
+
 .content-container{
     margin-left: 220px;
 }
