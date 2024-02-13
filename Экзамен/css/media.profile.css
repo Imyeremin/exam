@@ -1,0 +1,31 @@
+@media (max-width:1000px) {
+    .full-container{
+        flex-direction: column;
+        flex-direction: column-reverse;
+
+    }
+    .inform-container{
+        margin: 50px 0px;
+        height: 90%;
+        margin: 20px;
+    }
+    br{
+        display: block;
+    }
+}
+
+
+@media  (max-width:800px)  {
+
+    .container-menu{
+        display: none;
+    }
+    .content-container{
+        margin-left: 0px;
+    }
+
+
+    .footer-container{
+        margin-left: 0px;
+    }
+}

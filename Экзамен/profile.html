@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile</title>
-    <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/profile.css">
-</head>
-<body>
-    <main>  
-    <div class="container-main">
-
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/media.profile.css">
+  </head>
+  <body>
+    <main>
+      <div class="container-main">
         <div class="container-menu">
           <div class="logo-menu">
             <h1>Company</h1>
@@ -102,31 +102,167 @@
           </div>
         </div>
 
-      
-
-
-   
         <div class="content-container">
-            <div class="logo-menu logo">
-              <h1>Dashboard</h1>
-            </div>
-        </div>
-        </main>
-    
-    <footer>
+          <div class="logo-menu logo">
+            <h1>User Profile</h1>
+          </div>
+          <div class="full-container">
+            <div class="content-form">
+              <form action="">
+                <div class="form-container">
+                  <div class="header-form">
+                    <span class="b-font">Edit Profile</span>
+                    <span class="l-font"> Complete your profile</span>
+                  </div>
 
-        <div class="footer-container">
-            
-            <div class="footer-menu">
-                
-                <ul class="foot-ul">
-                <li class="foot-li">ABOUT</li>
-                <li class="foot-li">BLOG</li>
-                <li class="foot-li">LICENSES</li>
-            </ul>
+                  <div class="form">
+                    <div class="one-line-form">
+                      <div class="form-one">
+                        <label for="company-name">Company</label>
+                        <input
+                          type="text"
+                          id="company-name"
+                          name="company-name"
+                          class="control"
+                        />
+                      </div>
+
+                      <div class="form-one">
+                        <label for="username-name">Username</label>
+                        <input
+                          type="text"
+                          id="username-name"
+                          name="username-name"
+                          class="control"
+                        />
+                      </div>
+
+                      <div class="form-one">
+                        <label for="email-name">Email address</label>
+                        <input
+                          type="text"
+                          id="email-name"
+                          name="email-name"
+                          class="control"
+                        />
+                      </div>
+                    </div>
+                    <div class="one-line-form">
+                      <div class="form-one">
+                        <label for="first-name">First Name</label>
+                        <input
+                          type="text"
+                          id="first-name"
+                          name="first-name"
+                          class="control"
+                        />
+                      </div>
+
+                      <div class="form-one">
+                        <label for="last-name">Last Name</label>
+                        <input
+                          type="text"
+                          id="last-name"
+                          name="last-name"
+                          class="control"
+                        />
+                      </div>
+                    </div>
+                    <div class="one-line-form">
+                      <div class="form-one">
+                        <label for="address-name">Address</label>
+                        <input
+                          type="text"
+                          id="address-name"
+                          name="address-name"
+                          class="control"
+                        />
+                      </div>
+                    </div>
+                    <div class="one-line-form">
+                      <div class="form-one">
+                        <label for="city-name">City</label>
+                        <input
+                          type="text"
+                          id="city-name"
+                          name="city-name"
+                          class="control"
+                        />
+                      </div>
+
+                      <div class="form-one">
+                        <label for="coutry-name">Coutry</label>
+                        <input
+                          type="text"
+                          id="coutry-name"
+                          name="coutry-name"
+                          class="control"
+                        />
+                      </div>
+
+                      <div class="form-one">
+                        <label for="postal-name">Postal code</label>
+                        <input
+                          type="text"
+                          id="postal-name"
+                          name="postal-name"
+                          class="control"
+                        />
+                      </div>
+                    </div>
+                    <div class="one-line-form">
+                      <div class="form-one">
+                        <label for="about-name"> About me</label>
+                        <textarea
+                          name="about-name"
+                          id="about-name"
+                          cols="100"
+                          rows="1"
+                        >
+                        </textarea>
+                      </div>
+                    </div>
+                    <div class="one-line-form div-btn">
+                      <div class="form-one">
+                        <button type="button" class="btn">
+                          UPDATE PROFILE
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div class="inform-container">
+              <div class="icon-img">
+                <img src="img/account_gray.png" alt="" />
+              </div>
+              <p>CEO / CO-FOUDER</p>
+              <h3>Alec Thompson</h3>
+              <p>Lorem ipsum dolor sit amet consectetur
+                 adipisicing elit. Quas vero consectetur,<br> 
+                 pariatur in dignissimos veniam a sit nihil 
+                 voluptates sint placeat fugit est voluptas <br> 
+                 blanditiis.
+                 Vero ad nobis perspiciatis nihil?</p>
+            </div>
+          </div>
         </div>
-            <div class="foot-logo">2019 - made with love</div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-menu">
+          <ul class="foot-ul">
+            <li class="foot-li">ABOUT</li>
+            <li class="foot-li">BLOG</li>
+            <li class="foot-li">LICENSES</li>
+          </ul>
         </div>
-            </footer>
-</body>
+        <div class="foot-logo">2019 - made with love</div>
+      </div>
+    </footer>
+  </body>
 </html>
