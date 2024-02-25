@@ -1,0 +1,47 @@
+.burger{
+        margin-right: 10px;
+        width: 50px;
+        height: 50px;
+        border: 1px solid #bbbbbb;
+        padding: 10px;
+        position: relative;
+        display:block ;
+}
+
+
+    .burger > div {
+        height: 4px;
+        background-color: rgb(57, 57, 57);
+        position: absolute;
+        width: calc(100% - 20px);
+        transition: all 0.25s ease;
+      }
+      
+      .burger > div:nth-child(2),
+      .burger > div:nth-child(3) {
+        top: 22px;
+      }
+      
+      .burger > div:nth-child(4) {
+        top: 34px;
+      }
+      .check > #open:checked ~ .burger{
+        background-color:rgb(233, 232, 231, 0.9);
+      }
+     
+      .check > #open:checked ~ .burger > div:nth-child(2) {
+        transform: rotate(45deg);
+      }
+      
+      .check > #open:checked ~ .burger > div:nth-child(3) {
+        transform: rotate(-45deg);
+      }
+      
+      .check > #open:checked ~ .burger > div:nth-child(1),
+      .check > #open:checked ~ .burger > div:nth-child(4) {
+        opacity: 0;
+      }
+
+      .check > input[type="checkbox"]:checked ~ .slide {
+        left: 0;
+      }

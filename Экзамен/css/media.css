@@ -29,6 +29,31 @@
     .container-menu{
         display: none;
     }
+    .slide {
+        position: absolute;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        left: -100%;
+      
+      
+        padding: 15px 0;
+        background-color:rgb(233, 232, 231, 0.9);
+        border: 1px solid #000000;
+        
+        z-index: 100;
+      
+        transition: left 0.35s ease-in-out;
+      }
+      #open{
+        display: none;
+      }
+
+    .burger{
+        position: fixed;
+        display:block ;
+}
     .content-container{
         margin-left: 0px;
     }
